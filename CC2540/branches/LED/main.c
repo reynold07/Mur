@@ -1,0 +1,14 @@
+#include <ioCC2540.h>
+#define LED1 P1_0    //??P10??LED1???
+
+void IO_Init(void)
+{
+  P1DIR |= 0x01; //P1_0?????
+}
+
+void main(void)
+{   
+  IO_Init();      //???????
+  LED1=1;         //??LED1
+  while(1);
+}
