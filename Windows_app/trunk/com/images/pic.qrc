@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/pic">
+        <file>main.ico</file>
+        <file>CH.ico</file>
+        <file>EN.ico</file>
+    </qresource>
+</RCC>
